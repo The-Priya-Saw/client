@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+.container{
+
+background-image:url(https://wallpapercave.com/wp/wp2749148.jpg);
+background-size:cover;
+height: 100vh;
+} 
+
+.registrationContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-group{
+  margin: 20px;
+  display: table-caption;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-control{
+  padding: 10px;
+  font-size: large;
+  font-weight: 30px;
+  border-radius: 5px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.RegisterForm{
+ backdrop-filter: brightness(0.5);
+ padding: 40px; 
+}
+label{
   color: white;
+  font-size: 20px;
+  font-weight: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.registerButton{
+
+  width: -webkit-fill-available;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 20px;
+  height: 50px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.registerButton:hover{
+  width: -webkit-fill-available;
+  background-color: grey;
+  color: white;
+  font-size: 20px;
+  font-weight: 20px;
+  height: 50px;
+  cursor: pointer;
 }
